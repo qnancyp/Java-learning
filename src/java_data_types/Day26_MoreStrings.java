@@ -3,10 +3,12 @@ package java_data_types;
 public class Day26_MoreStrings {
 
 	public static void main(String[] args) {
+		//this is example of string class
 		String a = "Hello";
 		String b = a + "World";
 		System.out.println(b);
 		
+		//this and bellow are stringbuffer class
 		StringBuffer aa = new StringBuffer("Hello");
 		
 		aa.append("World");
